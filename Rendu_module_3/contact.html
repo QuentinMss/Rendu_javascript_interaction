@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    
+    <nav class="bod">
+        <div class="burger-menu">
+
+            <div class="burger-icon" id="burger-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="menu" id="menu">
+                <li><a href="http://127.0.0.1:3006/index.html">Home</a></li>
+                <li><a href="http://127.0.0.1:3006/lore.html">Lore</a></li>
+                <li><a href="http://127.0.0.1:3006/contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="slick-slider"> 
+        <div class="container">
+            <form id="subscriptionForm">
+                <label for="firstName">Prénom :</label>
+                <input type="text" id="firstName" name="firstName" required>
+    
+                <label for="lastName">Nom :</label>
+                <input type="text" id="lastName" name="lastName" required>
+    
+                <label for="address">Adresse :</label>
+                <input type="text" id="address" name="address" required>
+    
+                <label for="dob">Date de Naissance :</label>
+                <input type="date" id="dob" name="dob" required>
+    
+                <label for="placeOfBirth">Lieu de Naissance :</label>
+                <input type="text" id="placeOfBirth" name="placeOfBirth" required>
+    
+                <label for="email">Adresse E-mail :</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="password">Mot de Passe :</label>
+                <input type="password" id="password" name="password" required>
+    
+                <label for="phone">Numéro de Portable :</label>
+                <input type="tel" id="phone" name="phone" required>
+    
+                <label for="confirmationMessage">Message de Confirmation :</label>
+                <textarea id="confirmationMessage" name="confirmationMessage" rows="4" required></textarea>
+            </form>
+        </div>
+
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <img class="img1" src="Fond_lore.jpeg" alt="Image 1">
+              <div class="swiper-slide">Slide 1</div>
+                <img class="img2" src="khorne_icon.jpeg" alt="Image 2">
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 4</div>
+              <div class="swiper-slide">Slide 5</div>
+              <div class="swiper-slide">Slide 6</div>
+              <div class="swiper-slide">Slide 7</div>
+              <div class="swiper-slide">Slide 8</div>
+              <div class="swiper-slide">Slide 9</div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+        </div>
+        
+          <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="contact.js"></script>
+  </body>
+  </html>
+  
+  
